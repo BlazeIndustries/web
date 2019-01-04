@@ -1,0 +1,27 @@
+body, html {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.img {
+  text-align: center;
+  height: 100px;
+}
+
+.hr-black {
+    border-top: solid 1px black;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.card {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+
+.btn {
+  border-radius: 40px;
+}
