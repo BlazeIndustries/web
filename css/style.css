@@ -50,12 +50,13 @@ body, html {
   background: none;
   color: white;
   margin: 10px;
-  padding: 10px;
   height: 40px;
   width: 125px;
   border: 2px solid #27ae60;
+  background: #27ae60;
   border-radius: 40px;
   transition-duration: 0.3s;
+  cursor: pointer;
 }
 
 .img {
@@ -80,6 +81,19 @@ body, html {
   border-radius: 40px;
 }
 
+.loader {
+  border: 10px solid #ecf0f1;
+  border-top: 10px solid #3498db;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 25%;
+  margin-bottom: 50%;
+  margin-left: 45%;
+  margin-right: 45%;
+  animation: spin 2s linear infinite;
+}
+
 #discord {
   color: white;
   transition-duration: 0.7s;
@@ -87,5 +101,16 @@ body, html {
 
 #discord:hover {
   color: #2c3e50;
-  transition-duration: 0.7s;
+  transition-duration: 1.5s;
+  animation: spin 1s linear;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
