@@ -2,6 +2,60 @@ body, html {
     text-align: center;
     padding: 0;
     margin: 0;
+    background: #ecf0f1;
+}
+
+.mail {
+  position: relative;
+  background: none;
+  border: 2px solid #2c3e50;
+  border-radius: 40px;
+  color: white;
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  padding: 10px;
+  outline: none;
+  transition-duration: 0.3s;
+}
+
+.mail:focus {
+  text-decoration: none;
+  position: relative;
+  border: 2px solid #27ae60;
+  border-radius: 40px;
+  color: white;
+  width: 250px;
+  outline: none;
+  transition-duration: 0.3s;
+}
+
+.submit {
+  position: relative;
+  text-decoration: none;
+  outline: none;
+  background: none;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  border: 2px solid #27ae60;
+  border-radius: 40px;
+  transition-duration: 0.3s;
+}
+
+.submit:hover {
+  text-decoration: none;
+  background: none;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  height: 40px;
+  width: 125px;
+  border: 2px solid #27ae60;
+  border-radius: 40px;
+  transition-duration: 0.3s;
 }
 
 .img {
@@ -24,4 +78,14 @@ body, html {
 
 .btn {
   border-radius: 40px;
+}
+
+#discord {
+  color: white;
+  transition-duration: 0.7s;
+}
+
+#discord:hover {
+  color: #2c3e50;
+  transition-duration: 0.7s;
 }
